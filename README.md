@@ -1,5 +1,5 @@
-# oapotek
-Aplikasi simulasi pembelian obat secara online
+# oApotek
+Adalah sebuah aplikasi simulasi pembelian obat secara online
 
 
 Berikut tampilan User & Admin :
