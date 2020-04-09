@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tugas.oapotek">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".activity.UbahBarangActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ProductTheme" />
+        <activity
+            android:name=".activity.EditProfileActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ProductTheme" />
+        <activity
+            android:name=".activity.CartActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ProductTheme" />
+        <activity
+            android:name=".activity.ProductDetailActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ProductTheme"/>
+        <activity android:name=".activity.TambahBarangActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ProductTheme"/>
+        <activity android:name=".activity.ProductActivity"
+            android:theme="@style/ProductTheme"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppThemeFragments"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".activity.BiodataActivity"
+            android:theme="@style/AppThemeFragments"/>
+        <activity
+            android:name=".Splash.SplashActivity"
+            android:noHistory="true"
+            android:theme="@style/SplashTheme"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/AppThemeFragments" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:theme="@style/AppThemeFragments" />
+        <activity
+            android:name=".Splash.Splash1Activity"
+            android:noHistory="true"
+            android:theme="@style/SplashTheme"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

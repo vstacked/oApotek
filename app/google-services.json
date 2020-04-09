@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "931240046147",
+    "firebase_url": "https://tugasakhir-acfc3.firebaseio.com",
+    "project_id": "tugasakhir-acfc3",
+    "storage_bucket": "tugasakhir-acfc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931240046147:android:0ac6570a989baac3e9aef6",
+        "android_client_info": {
+          "package_name": "com.tugas.oapotek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931240046147-717m87g86nfcqhnktuqc170vrhlno09v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAJUTeXFoZh7vYxj4X-JkHcTVzdDoGbxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931240046147-717m87g86nfcqhnktuqc170vrhlno09v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

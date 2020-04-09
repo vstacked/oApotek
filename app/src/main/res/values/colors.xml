@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="text">#646060</color>
+    <color name="ColorStatusBar">#A39C9C</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="custom_toast">#00FF00</color>
+    <color name="custom_toast_fail">#FF0000</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="startColor">#0AB0F0</color>
+    <color name="endColor">#FFFFFF</color>
+</resources>
